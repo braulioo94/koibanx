@@ -4,7 +4,6 @@ import Filters from "./Filters";
 import '../App';
 
 
-
 const SearchBar = () =>{
 
     const storesContext = useContext(storeContext) ;

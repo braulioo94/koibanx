@@ -2,9 +2,7 @@ import storeContext from "./storeContext";
 import React,{useState,useContext} from 'react';
 import data from '../mocks/dataMocks';
 
-
 const StoreState = props =>{
-
 
 
     const [ stores, setStores]= useState([]);
@@ -13,7 +11,7 @@ const StoreState = props =>{
     const [enteredSearchBar,setEnteredSearchBar]= useState('');
     const [activated,setActivated]=useState(false);
     const [orderedFor, setOrderedFor]=useState('');
-;
+
     const getAllStore = () =>{
         const consultApi = async () =>{
             setStores(data);

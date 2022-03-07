@@ -1,7 +1,6 @@
 import React,{useContext, useEffect} from 'react'
 import storeContext from '../useContext/storeContext'
 
-
 const TableStore = () => {
 
         const storesContext = useContext(storeContext) ;
@@ -11,7 +10,6 @@ const TableStore = () => {
                  //Fetch all stores from the database
                 getAllStore();
         },[]) ;
-
 
         const filteredStores= () =>{
                 let filtered ;

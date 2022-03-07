@@ -6,8 +6,6 @@ import TableStore from './components/TableStore'
 import StoreState  from './useContext/storeState';
 
 
-
-
 function App() {
   return (
     <StoreState>

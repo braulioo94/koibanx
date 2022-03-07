@@ -420,5 +420,4 @@ const data = [
       lastSale: "2021-11-10T11:243:234Z"
     }]
 
-
     export default data

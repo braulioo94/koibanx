@@ -4,7 +4,6 @@ import '../App';
 
 
 
-
 const Filters = () =>{
 
         const storesContext = useContext(storeContext);
